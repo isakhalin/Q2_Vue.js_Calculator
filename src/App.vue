@@ -2,17 +2,17 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     {{ someValue }}
-    <HelloWorld msg="Hello World"/>
+    <MyCalculator msg="Hello World"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyCalculator from './components/MyCalculator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyCalculator
   },
   data(){
     return {

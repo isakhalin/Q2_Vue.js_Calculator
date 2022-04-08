@@ -16,10 +16,16 @@
     "transform": {
       ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest",
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
-    }
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "*/*.vue",
+      "**/node_modules/**"
+    ]
   },
   "dependencies": {
-    "core-js": "3.6.5",
+    "core-js": "^3.21.1",
+    "node-sass": "^7.0.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {

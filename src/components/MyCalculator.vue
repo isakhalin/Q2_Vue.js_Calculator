@@ -6,8 +6,8 @@
 <!--    <button @click="doThat('Hello', $event)">Click me</button>-->
 <!--    <input type="text" @blur="onValidation" @input=""/>-->
     <div class="display">
-      <input type="number" v-model.number="operand1">
-      <input type="number" v-model.number="operand2">
+      <input type="number" v-model.number="operand1" name="operand1">
+      <input type="number" v-model.number="operand2" name="operand2">
 
       = {{ result }}
       <br/>
